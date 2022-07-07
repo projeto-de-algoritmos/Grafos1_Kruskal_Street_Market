@@ -1,4 +1,4 @@
-# Kruskal Street Market
+# Dijkstra tourism
 
 **Conteúdo da Disciplina**: Grafos 2<br>
 
@@ -9,9 +9,7 @@
 | 180022237  |  Liverson Paulo Furtado Severo |
 
 ## Sobre 
-Utilizamos um mapa para estruturar uma feira e esquematizar as principais bancas e atrações utilizando conceitos de grafos. A idéia principal é fornecer as melhores rotas variando de acordo com:    
-1. Onde o usuário inicia sua jornada   
-2. Qual seu principal interesse de busca(geral ou melhor rota para legumes, frutas, atrações etc)  
+Utilizamos um mapa para estruturar os principais pontos turísticos da cidade do Rio de Janeiro. A idéia principal é fornecer as melhores rotas, utilizando conceitos de grafos, variando de acordo com os pontos que o turista deseja conhecer e em qual ele já está.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
