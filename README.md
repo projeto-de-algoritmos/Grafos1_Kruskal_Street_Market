@@ -12,7 +12,7 @@
 Utilizamos um mapa para estruturar os principais pontos turísticos da cidade do Rio de Janeiro. A idéia principal é fornecer as melhores rotas, utilizando conceitos de grafos, variando de acordo com os pontos que o turista deseja conhecer e em qual ele já está.
 
 ## Link do vídeo
-![aqui](https://youtu.be/6q7aFosRAwA)
+https://youtu.be/6q7aFosRAwA
 
 ## Screenshots
 ![](assets/screenshot.png)
