@@ -4,8 +4,26 @@ graph = {"copacabana":{"cristo redentor": 11900, "pao de acucar": 3000, "mudeu d
 "museu do amanha":{"copacabana": 13700, "cristo redentor": 13300, "pao de acucar": 10600, "ipanema": 15900, "jardim botanico": 12600, "parque lage": 11500},
 "ipanema":{"copacabana": 2000, "cristo redentor": 12800, "pao de acucar": 6400, "mudeu do amanha": 15900, "jardim botanico": 4900, "parque lage": 5200},
 "jardim botanico":{"copacabana": 6300, "cristo redentor": 9500, "pao de acucar": 6700, "mudeu do amanha": 12600, "ipanema": 4900, "parque lage": 1400},
-"parque laje":{"copacabana": 5600, "cristo redentor": 8300, "pao de acucar": 5800, "mudeu do amanha": 11500, "ipanema": 5200, "jardim botanico": 1400}}
+"parque lage":{"copacabana": 5600, "cristo redentor": 8300, "pao de acucar": 5800, "mudeu do amanha": 11500, "ipanema": 5200, "jardim botanico": 1400}}
+
+def dijkstra(node):
+    print(graph[node])
+
+def selector(myEnter):
+    switcher ={
+        1: "copacabana",
+        2: "cristo redentor",
+        3: "pao de acucar",
+        4: "museu do amanha",
+        5: "ipanema",
+        6: "jardim botanico",
+        7: "parque lage"}
+
+    dijkstra(switcher.get(myEnter, "nothing"))
 
 
 if __name__ == "__main__":
-    print(graph)
+    print("escolhar o número de onde deseja começar as visitas e pressione enter\n")
+    print("1-copacabana  2-cristo redentor  3-pao de acucar  4-museu do amanha  5-ipanema  6-jardim botanico  7-parque lage")
+    myEnter = int(input())
+    selector(myEnter)
