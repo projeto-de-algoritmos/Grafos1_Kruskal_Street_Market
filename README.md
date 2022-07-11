@@ -12,19 +12,14 @@
 Utilizamos um mapa para estruturar os principais pontos turísticos da cidade do Rio de Janeiro. A idéia principal é fornecer as melhores rotas, utilizando conceitos de grafos, variando de acordo com os pontos que o turista deseja conhecer e em qual ele já está.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![](assets/screenshot.png)
+![](assets/screenshot2.png)
+![](assets/screenshot3.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: python v3.8.10<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+- Digite:
+    
+    python3 algorithm.py

@@ -37,7 +37,6 @@ def caminho(distance):
                 v = place
         route[v] = d
         distance[v] = 50000
-    #print(route)
     for visit in route:
         print(visit, " ", route[visit])
 
