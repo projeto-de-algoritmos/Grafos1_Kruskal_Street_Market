@@ -29,18 +29,17 @@ def caminho(distance):
     route = {}
     len(route)
     while len(route) < len(distance):
-        #a = input()
         d = 50000
         v = ""
         for place in distance:
-            #print(distance[place])
             if distance[place] < d:
                 d = distance[place]
                 v = place
         route[v] = d
         distance[v] = 50000
-        #print(v)
-    print(route)
+    #print(route)
+    for visit in route:
+        print(visit, " ", route[visit])
 
 
 def selector(myEnter):
